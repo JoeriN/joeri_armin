@@ -1,0 +1,28 @@
+Dingen die opvallen:
+
+
+
+
+- Meerdere header tags
+- Inline style tags
+- Alt tags
+- Binnen h1 span gebruiken
+
+Eisen:
+- Voldaan aan HTML5 nieuwe tags
+- Opacity
+- Rectangulars
+
+Dingen die beter/anders kunnen:
+
+
+- Uitlijning verschillende divs
+- Border shadow mist.
+- Social buttons
+- Scroll to top mist op de homepage
+- Ik kan naar rechts scrollen?!
+- Header in een artikel?
+
+CSS:
+
+- Minder gebruik maken van position: absolute;

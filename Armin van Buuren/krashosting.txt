@@ -1,0 +1,46 @@
+<!doctype HTML>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>wachtwoord vergeten</title>
+</head>
+<body>
+<?php 
+    error_reporting(0);
+        if($_POST['submit']=='Send')
+        {
+            //keep it inside
+            $email=$_POST['email'];
+
+            $con=mysqli_connect("localhost","bartol1q","Kasteeldreef2015","bartol1q_krashosting");
+            // Check connection
+            if (mysqli_connect_errno())
+            {
+                echo "Failed to connect to MySQL: " . mysqli_connect_error();
+            }
+            $query = mysqli_query($con,"select * from login where user_email='$email'")
+                or die(mysqli_error($con)); 
+
+            $numrows = $query->num_rows();                                  
+
+        if (mysqli_num_rows ($query)==1)
+        {  
+            $code=rand(100,999);
+            $message='You activation link is: /forgot.php?email=$email&code=$code';
+            mail($email, "wachtwoord vergeten?", $message);
+            echo 'Er is een email verstuurd naar uw emailadres';
+        }
+        else
+        {
+            echo 'Er bestaat geen gebruiker met deze gebruikersnaam';
+        }
+    }
+?>
+<form action="" method="post">
+Enter you email ID: <input type="text" name="email">
+<input type="submit" name="submit" value="Send">
+</form>
+</body>
+
+</html>

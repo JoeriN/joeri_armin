@@ -1,0 +1,233 @@
+html {
+    width: 100%;    
+}
+
+body {
+    margin: 0 auto; 
+    font-size: 16px;
+    color: #545454;
+}
+
+.socialmedia {
+    padding-left: 1200px;
+    height: 50px;   
+}
+
+.social_icons{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+    
+.social_icons a{
+    color: #ccc;
+    text-decoration:none;
+    padding-left: 10px;
+}
+
+.social_icons a:hover{
+    color: #eee;
+}
+
+.buuren{
+    margin-left: 400px
+}
+
+.armin{
+    position:absolute;
+    width: 150px;
+    background-color: #fff;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    top: 20px; 
+    font-size: 25px;
+    color: #666
+}
+
+.header_foto{
+    margin-bottom: -4px;   
+}
+
+.header{
+    width: 100%;
+    color: #333;    
+}
+
+.header_gradient{
+    position:absolute;
+    background: linear-gradient(to right, blue , white); 
+    color: white;
+    top: 115px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    opacity: 0.7;
+    width: 100%;
+    font-size: 30px;
+    text-decoration: bold;
+    text-align: center;
+}
+
+.header_block{
+    width: 1600px;
+    background-color: pink;
+    height: 50px;
+    margin-left: 250px;
+    padding-top: 15px;
+}
+
+.driehoek{
+    width: 0;
+    height: 0px;
+    border:  30px solid;
+    border-color: pink transparent transparent transparent;
+
+}
+
+#driehoek_header{
+    position: absolute;
+    top: 220px;
+    margin-left: 1005px;
+    z-index: 1;
+}
+
+.nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center; 
+    background: linear-gradient(to right, pink , blue);
+    margin-bottom: 100px;
+}
+
+
+
+.menu_tekst{
+    color: white;    
+    text-decoration:none;
+    padding-top: 2px;
+}
+
+nav a {
+    
+    padding-right: 10px;    
+    color: white;    
+    text-decoration:none;
+    font-size: 20px;
+    padding-left: 15px; 
+    
+}
+
+nav a:hover{   
+   color: #ddd;     
+}
+
+.content1{
+    margin-left: 400px;
+}
+
+.content_titel1{
+    font-size: 25px;
+    padding-top: 90px;
+    padding-bottom: 45px;
+    color: #888; 
+}
+
+.tekst_datum{
+    font-size: 20px;
+    color: #888;
+    float: left;
+    width: 700px;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    float:left;
+}
+
+.tekst_home{
+    text-align: center;  
+    font-size: 30px;
+    font-weight:italic;
+}
+
+.title_tekst{
+    font-size: 25px;
+    padding-left: 70px;
+    color: #333;    
+}
+
+.categorie{
+    font-size: 16px;
+    color: #888;
+    float: left;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-bottom: 100px;
+    height: 100px;
+    
+}
+
+.categorie_tekst{
+    text-align: left;  
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.title_tekst1{
+    text-align: left;  
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #333;
+}
+
+.berichten{
+    color: #888;
+    float: left;
+    width: 400px;
+    margin-left: -400px;
+    margin-top: 317px;
+    padding-bottom: 100px;
+    height: 100px;
+    
+}
+
+.berichten_tekst{
+    text-align: left;  
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.berichten_naam{
+    color: red;
+    font-size: 18px;
+}
+
+.berichten_tekst1{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.social_icons_onder a{
+    color: #ccc;
+    text-decoration:none;
+}
+
+.social_icons_onder a:hover{
+    color: #eee;
+}
+
+.social_icons_onder{
+    position:absolute;
+    top: 1300px;
+    float: left;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+.top_button{
+    width: 70px !important;
+    float: left;
+    margin-left: -70px;
+    margin-top: 850px;
+}
